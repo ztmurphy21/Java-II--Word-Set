@@ -41,7 +41,7 @@ public class WordSet {
         String userInput =reader.readLine();
         
         //seperating using split will make array with spaces
-        arrayOutput = new TreeSet<String>(Array.asList(userInput.split(" ")));
+        arrayOutput = new TreeSet<String>(Arrays.asList(userInput.split(" ")));
         //wll output in order
         System.out.println(arrayOutput);
     }
